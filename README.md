@@ -10,7 +10,7 @@ Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/
 Añadir usuario actual
 
 Añadir 
-### Allow the user running ospd-openvas, to launch openvas with root permissions
+# ## Allow the user running ospd-openvas, to launch openvas with root permissions
 gvm ALL = NOPASSWD: /opt/gvm/sbin/openvas
 gvm ALL = NOPASSWD: /opt/gvm/sbin/gsad
 
